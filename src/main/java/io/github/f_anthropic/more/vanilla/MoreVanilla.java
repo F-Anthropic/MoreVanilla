@@ -54,7 +54,7 @@ public final class MoreVanilla implements ModInitializer {
                 Identifier.fromNamespaceAndPath("minecraft", "building_blocks")
         );
         CreativeModeTabEvents.modifyOutputEvent(buildingBlocks).register(output ->
-                output.accept(SMOOTH_STONE_STAIRS.asItem().getDefaultInstance())
+                output.insertAfter(Blocks.SMOOTH_STONE, SMOOTH_STONE_STAIRS)
         );
         LOGGER.info("MoreVanilla initialized");
     }
