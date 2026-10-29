@@ -1,4 +1,10 @@
 {
-  "block.more_vanilla.smooth_stone_stairs": "平滑石楼梯",
-  "item.more_vanilla.smooth_stone_stairs": "平滑石楼梯"
+  "block.more_vanilla.smooth_stone_stairs": "平滑石头楼梯",
+  "item.more_vanilla.smooth_stone_stairs": "平滑石头楼梯",
+  "block.more_vanilla.smooth_stone_wall": "平滑石头墙",
+  "item.more_vanilla.smooth_stone_wall": "平滑石头墙",
+  "block.more_vanilla.cut_sandstone_stairs": "切制砂岩楼梯",
+  "item.more_vanilla.cut_sandstone_stairs": "切制砂岩楼梯",
+  "block.more_vanilla.cut_sandstone_wall": "切制砂岩墙",
+  "item.more_vanilla.cut_sandstone_wall": "切制砂岩墙"
 }

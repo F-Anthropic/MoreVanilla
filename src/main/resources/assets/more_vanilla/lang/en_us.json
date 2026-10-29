@@ -1,4 +1,10 @@
 {
   "block.more_vanilla.smooth_stone_stairs": "Smooth Stone Stairs",
-  "item.more_vanilla.smooth_stone_stairs": "Smooth Stone Stairs"
+  "item.more_vanilla.smooth_stone_stairs": "Smooth Stone Stairs",
+  "block.more_vanilla.smooth_stone_wall": "Smooth Stone Wall",
+  "item.more_vanilla.smooth_stone_wall": "Smooth Stone Wall",
+  "block.more_vanilla.cut_sandstone_stairs": "Cut Sandstone Stairs",
+  "item.more_vanilla.cut_sandstone_stairs": "Cut Sandstone Stairs",
+  "block.more_vanilla.cut_sandstone_wall": "Cut Sandstone Wall",
+  "item.more_vanilla.cut_sandstone_wall": "Cut Sandstone Wall"
 }

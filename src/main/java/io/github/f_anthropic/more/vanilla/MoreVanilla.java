@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.StairBlock;
+import net.minecraft.world.level.block.WallBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -26,6 +27,24 @@ public final class MoreVanilla implements ModInitializer {
             "smooth_stone_stairs",
             settings -> new StairBlock(Blocks.SMOOTH_STONE.defaultBlockState(), settings),
             BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)
+    );
+
+    public static final Block SMOOTH_STONE_WALL = registerBlock(
+            "smooth_stone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)
+    );
+
+    public static final Block CUT_SANDSTONE_STAIRS = registerBlock(
+            "cut_sandstone_stairs",
+            settings -> new StairBlock(Blocks.CUT_SANDSTONE.defaultBlockState(), settings),
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_SANDSTONE)
+    );
+
+    public static final Block CUT_SANDSTONE_WALL = registerBlock(
+            "cut_sandstone_wall",
+            WallBlock::new,
+            BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_SANDSTONE)
     );
 
     private static Block registerBlock(
@@ -55,6 +74,15 @@ public final class MoreVanilla implements ModInitializer {
         );
         CreativeModeTabEvents.modifyOutputEvent(buildingBlocks).register(output ->
                 output.insertAfter(Blocks.SMOOTH_STONE, SMOOTH_STONE_STAIRS)
+        );
+        CreativeModeTabEvents.modifyOutputEvent(buildingBlocks).register(output ->
+                output.insertAfter(Blocks.SMOOTH_STONE_SLAB, SMOOTH_STONE_WALL)
+        );
+        CreativeModeTabEvents.modifyOutputEvent(buildingBlocks).register(output ->
+                output.insertAfter(Blocks.CUT_SANDSTONE, CUT_SANDSTONE_STAIRS)
+        );
+        CreativeModeTabEvents.modifyOutputEvent(buildingBlocks).register(output ->
+                output.insertAfter(Blocks.CUT_SANDSTONE_SLAB, CUT_SANDSTONE_WALL)
         );
         LOGGER.info("MoreVanilla initialized");
     }
