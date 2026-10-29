@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "more_vanilla_test",
+  "version": "1.0.3",
+  "name": "MoreVanilla Wall Regression Tests",
+  "environment": "*",
+  "license": "LGPL-3.0-or-later",
+  "entrypoints": {
+    "fabric-gametest": [
+      "io.github.f_anthropic.more.vanilla.WallConnectionTests"
+    ]
+  },
+  "depends": {
+    "more_vanilla": "*",
+    "fabric-gametest-api-v1": "*"
+  }
+}

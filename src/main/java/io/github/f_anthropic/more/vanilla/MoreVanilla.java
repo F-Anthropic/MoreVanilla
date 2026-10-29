@@ -29,11 +29,7 @@ public final class MoreVanilla implements ModInitializer {
             BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)
     );
 
-    public static final Block SMOOTH_STONE_WALL = registerBlock(
-            "smooth_stone_wall",
-            WallBlock::new,
-            BlockBehaviour.Properties.ofFullCopy(Blocks.SMOOTH_STONE)
-    );
+    public static final Block SMOOTH_STONE_WALL = registerWall("smooth_stone_wall", Blocks.SMOOTH_STONE);
 
     public static final Block CUT_SANDSTONE_STAIRS = registerBlock(
             "cut_sandstone_stairs",
@@ -41,11 +37,7 @@ public final class MoreVanilla implements ModInitializer {
             BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_SANDSTONE)
     );
 
-    public static final Block CUT_SANDSTONE_WALL = registerBlock(
-            "cut_sandstone_wall",
-            WallBlock::new,
-            BlockBehaviour.Properties.ofFullCopy(Blocks.CUT_SANDSTONE)
-    );
+    public static final Block CUT_SANDSTONE_WALL = registerWall("cut_sandstone_wall", Blocks.CUT_SANDSTONE);
 
     public static final Block STONE_WALL = registerWall("stone_wall", Blocks.STONE);
     public static final Block QUARTZ_WALL = registerWall("quartz_wall", Blocks.QUARTZ_BLOCK);
@@ -76,7 +68,11 @@ public final class MoreVanilla implements ModInitializer {
     }
 
     private static Block registerWall(String name, Block baseBlock) {
-        return registerBlock(name, WallBlock::new, BlockBehaviour.Properties.ofFullCopy(baseBlock));
+        return registerBlock(
+                name,
+                WallBlock::new,
+                BlockBehaviour.Properties.ofLegacyCopy(baseBlock).forceSolidOn()
+        );
     }
 
     @Override

@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "more_vanilla:cut_sandstone_wall",
+    "more_vanilla:dark_prismarine_wall",
+    "more_vanilla:polished_andesite_wall",
+    "more_vanilla:polished_diorite_wall",
+    "more_vanilla:polished_granite_wall",
+    "more_vanilla:prismarine_bricks_wall",
+    "more_vanilla:purpur_block_wall",
+    "more_vanilla:quartz_wall",
+    "more_vanilla:smooth_stone_wall",
+    "more_vanilla:stone_wall"
+  ]
+}

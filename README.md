@@ -72,7 +72,7 @@ IngredientSortStages = CREATIVE_MENU
 - Fabric API 0.165.0+26.3 或更高版本
 - Java 25 或更高版本
 
-将 `MoreVanilla-1.0.1.jar` 放入 Minecraft 实例的 `mods` 文件夹，并同时安装 Fabric API。
+将 `MoreVanilla-1.0.3.jar` 放入 Minecraft 实例的 `mods` 文件夹，并同时安装 Fabric API。
 
 ## 构建
 
@@ -85,7 +85,13 @@ IngredientSortStages = CREATIVE_MENU
 构建产物位于：
 
 ```text
-build/libs/MoreVanilla-1.0.1.jar
+build/libs/MoreVanilla-1.0.3.jar
+```
+
+构建时还会运行服务端 GameTest，检查墙标签、同种/不同材质墙的双向连接、与原版墙的连接，以及直线、转角、交叉和顶部覆盖状态。也可单独执行：
+
+```bash
+./gradlew runGameTest
 ```
 
 ## 项目信息
