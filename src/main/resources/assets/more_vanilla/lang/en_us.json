@@ -6,5 +6,21 @@
   "block.more_vanilla.cut_sandstone_stairs": "Cut Sandstone Stairs",
   "item.more_vanilla.cut_sandstone_stairs": "Cut Sandstone Stairs",
   "block.more_vanilla.cut_sandstone_wall": "Cut Sandstone Wall",
-  "item.more_vanilla.cut_sandstone_wall": "Cut Sandstone Wall"
+  "item.more_vanilla.cut_sandstone_wall": "Cut Sandstone Wall",
+  "block.more_vanilla.stone_wall": "Stone Wall",
+  "item.more_vanilla.stone_wall": "Stone Wall",
+  "block.more_vanilla.quartz_wall": "Quartz Wall",
+  "item.more_vanilla.quartz_wall": "Quartz Wall",
+  "block.more_vanilla.prismarine_bricks_wall": "Prismarine Bricks Wall",
+  "item.more_vanilla.prismarine_bricks_wall": "Prismarine Bricks Wall",
+  "block.more_vanilla.dark_prismarine_wall": "Dark Prismarine Wall",
+  "item.more_vanilla.dark_prismarine_wall": "Dark Prismarine Wall",
+  "block.more_vanilla.purpur_block_wall": "Purpur Wall",
+  "item.more_vanilla.purpur_block_wall": "Purpur Wall",
+  "block.more_vanilla.polished_andesite_wall": "Polished Andesite Wall",
+  "item.more_vanilla.polished_andesite_wall": "Polished Andesite Wall",
+  "block.more_vanilla.polished_granite_wall": "Polished Granite Wall",
+  "item.more_vanilla.polished_granite_wall": "Polished Granite Wall",
+  "block.more_vanilla.polished_diorite_wall": "Polished Diorite Wall",
+  "item.more_vanilla.polished_diorite_wall": "Polished Diorite Wall"
 }

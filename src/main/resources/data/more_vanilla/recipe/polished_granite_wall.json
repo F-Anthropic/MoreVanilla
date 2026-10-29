@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:polished_granite"
+  },
+  "result": {
+    "id": "more_vanilla:polished_granite_wall",
+    "count": 6
+  }
+}

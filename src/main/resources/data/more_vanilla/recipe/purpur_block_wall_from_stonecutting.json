@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:purpur_block",
+  "result": {
+    "id": "more_vanilla:purpur_block_wall",
+    "count": 1
+  }
+}

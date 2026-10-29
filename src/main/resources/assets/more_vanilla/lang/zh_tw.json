@@ -6,5 +6,21 @@
   "block.more_vanilla.cut_sandstone_stairs": "切製砂岩樓梯",
   "item.more_vanilla.cut_sandstone_stairs": "切製砂岩樓梯",
   "block.more_vanilla.cut_sandstone_wall": "切製砂岩牆",
-  "item.more_vanilla.cut_sandstone_wall": "切製砂岩牆"
+  "item.more_vanilla.cut_sandstone_wall": "切製砂岩牆",
+  "block.more_vanilla.stone_wall": "石頭牆",
+  "item.more_vanilla.stone_wall": "石頭牆",
+  "block.more_vanilla.quartz_wall": "石英牆",
+  "item.more_vanilla.quartz_wall": "石英牆",
+  "block.more_vanilla.prismarine_bricks_wall": "海磷石磚牆",
+  "item.more_vanilla.prismarine_bricks_wall": "海磷石磚牆",
+  "block.more_vanilla.dark_prismarine_wall": "暗海磷石磚牆",
+  "item.more_vanilla.dark_prismarine_wall": "暗海磷石磚牆",
+  "block.more_vanilla.purpur_block_wall": "紫珀塊牆",
+  "item.more_vanilla.purpur_block_wall": "紫珀塊牆",
+  "block.more_vanilla.polished_andesite_wall": "磨製安山岩牆",
+  "item.more_vanilla.polished_andesite_wall": "磨製安山岩牆",
+  "block.more_vanilla.polished_granite_wall": "磨製花崗岩牆",
+  "item.more_vanilla.polished_granite_wall": "磨製花崗岩牆",
+  "block.more_vanilla.polished_diorite_wall": "磨製閃長岩牆",
+  "item.more_vanilla.polished_diorite_wall": "磨製閃長岩牆"
 }

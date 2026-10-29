@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "SSS",
+    "SSS"
+  ],
+  "key": {
+    "S": "minecraft:prismarine_bricks"
+  },
+  "result": {
+    "id": "more_vanilla:prismarine_bricks_wall",
+    "count": 6
+  }
+}
