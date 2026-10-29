@@ -1,0 +1,20 @@
+.gradle/
+.gradle-user-home/
+.tools/
+build/
+out/
+run/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Local changelogs kept outside the repository upload
+change/
+
+# OS files
+.DS_Store
+Thumbs.db

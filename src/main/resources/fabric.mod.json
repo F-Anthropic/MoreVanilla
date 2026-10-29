@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "more_vanilla",
+  "version": "${version}",
+  "name": "MoreVanilla",
+  "description": "Adds vanilla-style blocks that are missing from Minecraft.",
+  "authors": [
+    "f_anthropic"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.f_anthropic.more.vanilla.MoreVanilla"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
