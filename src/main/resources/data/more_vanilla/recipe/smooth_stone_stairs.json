@@ -7,9 +7,7 @@
     "SSS"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:smooth_stone"
-    }
+    "S": "minecraft:smooth_stone"
   },
   "result": {
     "id": "more_vanilla:smooth_stone_stairs",
